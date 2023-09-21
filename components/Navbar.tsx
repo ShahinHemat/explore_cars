@@ -16,12 +16,14 @@ const Navbar = () => {
                     className="object-contain"
                     />
                 </Link>
-
+                
+                <a href='https://github.com/ShahinHemat/explore_cars' target="_blank">
                 <CustomButton 
-                title='Sign In'
+                title='GitHub'
                 btnType='button'
                 containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"
                 />
+                </a>
             </nav>
         </header>
     )
